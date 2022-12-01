@@ -19,4 +19,5 @@
 //    B.      STRINGS
 //1. Create a variable called firstVariable
 //2. 
-let firstVariable = "Hellow World!";
+let firstVariable = 546;
+let secondVariable = firstVariable;

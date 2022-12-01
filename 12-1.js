@@ -17,7 +17,12 @@
 */
 
 //    B.      STRINGS
-//1. Create a variable called firstVariable
-//2. 
+
 let firstVariable = 546;
-let secondVariable = firstVariable;
+let secondVariable = "Any string";
+
+//6. The value of firstVariable is 546
+console.log(firstVariable);
+
+let yourName = "William Peña";
+console.log(`Hello, my name is ${yourName}!`);

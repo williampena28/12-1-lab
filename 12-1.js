@@ -252,15 +252,15 @@ console.log(calculateCube(5));
 //      IV. D isVowel
 const isVowel = (character) =>
 {
-    if(character == 'A' || character == 'a' || character == 'E' || character == 'e' || character == 'I' || character == 'i' || character == 'O' || character == 'o' || character == 'U' || character == 'u')
-    {
-        return true;
-    } else
+    if(character.length > 1)
     {
         return false;
+    } else 
+    {
+        return /[aeiou]/gi.test(character);
     }
 }
-console.log(isVowel("a"));
+console.log(isVowel("E"));
 
 //      IV. E getTwoLengths
 const getTwoLengths = (wordOne, wordTwo) =>
